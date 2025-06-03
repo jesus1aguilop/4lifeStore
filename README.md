@@ -1,60 +1,73 @@
 ![Store](https://github.com/user-attachments/assets/89114e94-75e8-460f-892e-b42b7abee0bc)
-🛒 Proyecto: 4lifeStore
-📌 Descripción General
 
-Este proyecto es una plataforma web de catálogo de productos 4Life diseñada para actuar como intermediaria entre los clientes y la tienda oficial de 4Life. El sistema permite a los visitantes explorar productos por categorías y redirige a los usuarios hacia el enlace de compra personalizado con el código de distribuidor del propietario del sitio.
+# 🛒 Tienda 4Life + Panel Administrativo
 
-Cuenta además con un panel administrativo protegido por inicio de sesión (Clerk), desde el cual el administrador puede gestionar los productos y categorías disponibles de forma fácil, segura y en tiempo real.
-🧱 Tecnologías utilizadas
-🔹 Frontend (cliente)
+Bienvenido a la plataforma de catálogo de productos 4Life, diseñada para promover y gestionar productos como distribuidor autorizado. Este sistema permite mostrar productos organizados por categoría, y redirigir a los usuarios al sitio oficial de compra usando tu código de distribuidor. Incluye un **panel administrativo seguro** para gestionar el contenido de la tienda.
 
-    React.js
+---
 
-    Clerk (autenticación para el admin)
+## 🚀 Tecnologías utilizadas
 
-    Axios (peticiones a la API)
+### 🧩 Frontend (Cliente)
+- ⚛️ React.js
+- 🔐 Clerk (autenticación del administrador)
+- 🎨 Tailwind CSS
+- 📡 Axios
 
-    Tailwind CSS (estilo moderno y responsivo)
+### 🛠️ Backend (Servidor)
+- 🐍 Python + FastAPI
+- 🔥 Firebase Firestore (NoSQL)
+- 🔐 Firebase Admin SDK
+- 🧼 Pydantic (validación de datos)
 
-🔹 Backend (servidor)
+---
 
-    Python + FastAPI (API REST moderna y rápida)
+## 🧰 Funcionalidades
 
-    Firebase Firestore (base de datos NoSQL)
+### 🛍️ Tienda pública
+- Navegación por categorías
+- Vista de productos con imagen, descripción y botón de compra
+- Redirección a la tienda oficial 4Life con código de distribuidor
+- Abierta sin login
 
-    Pydantic (validaciones y esquemas)
+### 🔒 Panel administrativo
+- Login seguro con Clerk (solo para admins)
+- CRUD de productos
+- CRUD de categorías
+- Validaciones en formularios
+- Control de acceso para usuarios autorizados
 
-    Firebase Admin SDK (interacción con Firestore)
+---
 
-🧰 Funcionalidades principales
-🛍️ Sitio público (Tienda)
+## 🧱 Estructura de la base de datos (Firebase Firestore)
 
-    Listado de productos por categoría
+| Colección      | Descripción                          |
+|----------------|--------------------------------------|
+| `productos`    | Productos disponibles en la tienda   |
+| `categorias`   | Agrupación por categoría             |
+| `admins`       | Usuarios con acceso administrativo   |
+| `estadisticas` | (Opcional) Métricas de clics/visitas |
 
-    Página responsiva y amigable
+---
 
-    Botón de compra que redirige al sitio oficial de 4Life
+## 🌱 Futuras mejoras (visión SaaS)
+- Multitienda para múltiples distribuidores
+- Personalización por tienda
+- Multilenguaje (ES / EN)
+- Estadísticas en tiempo real
+- Soporte para subdominios personalizados
 
-    Abierto sin necesidad de autenticación
+---
 
-🔐 Panel administrativo
+## 📦 Instalación y desarrollo local (próximamente…)
 
-    Login seguro con Clerk
+> La guía paso a paso para ejecutar el proyecto estará disponible próximamente.
 
-    Crear, editar y eliminar productos
+---
 
-    Crear y administrar categorías
+## 🙌 Autor
 
-    Validación de formularios
+Desarrollado con ❤️ por **Jesús** — apasionado por el código, el diseño limpio y los proyectos con propósito.
 
-    Permiso exclusivo para usuarios administradores
+---
 
-🌱 Visión futura (opcional/SaaS)
-
-    Convertir la plataforma en un modelo SaaS donde múltiples distribuidores puedan crear su propia tienda personalizada con su propio código de distribuidor.
-
-    Agregar estadísticas de clics y visitas.
-
-    Multilenguaje (Español/Inglés).
-
-    Personalización visual para cada tienda.
