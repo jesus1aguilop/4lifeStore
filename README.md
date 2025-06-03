@@ -1,4 +1,5 @@
-![Store](https://github.com/user-attachments/assets/89114e94-75e8-460f-892e-b42b7abee0bc)
+
+![canvas](https://github.com/user-attachments/assets/6f74a9b5-b62f-47cc-a286-f94cd528c172)
 
 # 🛒 Tienda 4Life + Panel Administrativo
 
