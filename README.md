@@ -1,7 +1,7 @@
 
 ![canvas](https://github.com/user-attachments/assets/6f74a9b5-b62f-47cc-a286-f94cd528c172)
 
-# 🛒 Tienda 4Life + Panel Administrativo
+# 🛒 4lifeStore
 
 Bienvenido a la plataforma de catálogo de productos 4Life, diseñada para promover y gestionar productos como distribuidor autorizado. Este sistema permite mostrar productos organizados por categoría, y redirigir a los usuarios al sitio oficial de compra usando tu código de distribuidor. Incluye un **panel administrativo seguro** para gestionar el contenido de la tienda.
 
